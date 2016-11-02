@@ -3,8 +3,26 @@
 	box-sizing: border-box;
 }
 
-h1 {
-	font-size: 300px;
-	text-align: center;
-	color: fuchsia;
+img {
+	display: inline-block;
+	width: 100%;
+}
+
+.user-card {
+
+	.caption {
+		height: 75px;
+	}
+
+	.price {
+		text-align: right;
+		vertical-align: bottom;
+		padding-right: 10px;
+	}
+}
+
+.single-listing {
+	border: 1px solid black;
+	width: 75%;
+	margin: auto;
 }

@@ -1,6 +1,5 @@
 const Backbone = require('Backbone')
 const $ = require('jquery')
-console.log('wut')
 
 var {UserModel, ListingsCollection} = require('./models-collections.js')
 var ViewTemplateConstructor = require('./tempContr.js')
@@ -37,6 +36,7 @@ var AppRouter = Backbone.Router.extend({
       var userListing = new ViewTemplateConstructor('.content-area', allListingsTemplateFn)
       userListing.render(allListings)
       })
+      
    },
 
    initialize: function(){

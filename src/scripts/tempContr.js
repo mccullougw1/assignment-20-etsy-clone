@@ -3,6 +3,7 @@ var $ = require('jquery')
 
 
 var ViewTemplateConstructor = function(domElSelector , htmlTemplFunction){
+
    this.domEl = domElSelector
 
    this.buildHTMLTemplate = htmlTemplFunction
